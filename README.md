@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-woopsocial-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://woopsocial.com/
+WoopSocial provides a unified social media API and a Multi‑Channel Publishing (MCP) platform for AI agents and developers. It offers tools for engagement calculation, image resizing, UTM generation, and content scheduling across major platforms like X/Twitter, LinkedIn, Pinterest, Instagram, Threads, BlueSky, Facebook, TikTok, and YouTube. The service includes a developer portal, pricing plans, and comprehensive documentation for integrating social media functionalities into applications.
+
+**Areas:** Company · Social Media · API · MCP · AI Agents
+
+## woopsocial-com on APIs.io
+
+Everything profiled for woopsocial-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/woopsocial-com/](https://apis.io/providers/woopsocial-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [WoopSocial API](https://apis.io/apis/woopsocial-com/woopsocial-api/) — Unified social media API and MCP platform
+- [woopsocial-com Openapi API](https://apis.io/apis/woopsocial-com/woopsocial-com-openapi-api/) — This is the public-facing OpenAPI contract for WoopSocial. It supports scheduling posts for various social media platforms such as Bluesky, Facebook,…
+- [woopsocial-com Out.Openapi API](https://apis.io/apis/woopsocial-com/woopsocial-com-out-openapi-api/) — This is the public-facing OpenAPI contract for WoopSocial. It supports scheduling posts for various social media platforms such as Facebook, Instagram,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Woopsocial Com Webhooks](https://apis.io/asyncapis/woopsocial-com/woopsocial-com-webhooks/)
+
+#### JSON Schema (7)
+
+The data models the API reads and writes.
+
+- [CreateOAuthAuthorizationRequest](https://apis.io/schemas/woopsocial-com/woopsocial-com-create-oauth-authorization-request/)
+- [CreatePostRequest](https://apis.io/schemas/woopsocial-com/woopsocial-com-create-post-request/)
+- [Post](https://apis.io/schemas/woopsocial-com/woopsocial-com-post/)
+- [SocialAccount](https://apis.io/schemas/woopsocial-com/woopsocial-com-social-account/)
+- [UploadSession](https://apis.io/schemas/woopsocial-com/woopsocial-com-upload-session/)
+- [UploadSessionStatus](https://apis.io/schemas/woopsocial-com/woopsocial-com-upload-session-status/)
+- [ValidatePostResponse](https://apis.io/schemas/woopsocial-com/woopsocial-com-validate-post-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Woopsocial Com Context](https://apis.io/jsonld/woopsocial-com/woopsocial-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [woopsocial-com API Rules](https://apis.io/rules/woopsocial-com/woopsocial-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Woopsocial Com Authentication](https://apis.io/security/woopsocial-com/woopsocial-com-authentication/)
+- [Woopsocial Com Domain Security](https://apis.io/security/woopsocial-com/woopsocial-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Woopsocial Com Plans Pricing](https://apis.io/plans/woopsocial-com/woopsocial-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://woopsocial.com/)
+- [Documentation](https://docs.woopsocial.com/api-reference/overview)
+- [Getting started](https://docs.woopsocial.com/api-reference/api-onboarding)
+- [Pricing](https://woopsocial.com/pricing)
+- [Blog](https://woopsocial.com/blog)
+- [Terms of service](https://woopsocial.com/terms-of-service)
+- [Privacy policy](https://woopsocial.com/privacy-policy)
+- [GitHub](https://github.com/WoopSocial)
+
+## API Evangelist rating
+
+**Kin Score 55.1** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 51.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/woopsocial-com/](https://apis.io/providers/woopsocial-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for woopsocial-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/woopsocial-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
